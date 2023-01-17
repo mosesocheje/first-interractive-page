@@ -1,0 +1,164 @@
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(3, 138, 192);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 100vh;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+      flex-direction: row;
+    }
+  }
+
+.content {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center;
+    justify-content: center; */
+    background-color: white;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+    
+
+}
+
+@media screen and (max-width: 480px) {
+    .content {
+      flex-direction: row;
+    }
+  }
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 100px;
+    width: 35%;
+    height: 100vh;
+}
+.heading {
+    color: blue;
+    padding-top: 50px;
+    
+}
+
+.heading2 {
+    line-height: 1.5;
+    color: rgb(33, 33, 150);
+    
+}
+.welcome {
+    
+}
+.email {
+    font-size: 1.2em;
+    padding-bottom: 10px;
+   
+
+}
+
+
+
+.password{
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+input[type=email] {
+    width: 90%;
+    padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password] {
+    width: 90%;
+    padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.forget {
+    padding-left: 120px;
+    text-decoration: none;
+    color: black;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    
+}
+.login-btn{
+    padding: 10px 30px;
+    background-color: blue;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.signup-btn{
+    padding: 10px 30px;
+    background-color: white;
+    border: 1px solid blue;
+    outline: none;
+    color: blue;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.social-media {
+    padding-top: 40px;
+    
+}
+.google{
+padding-right: 20px;
+padding-left: 20px;
+font-weight: bolder;
+text-decoration: none;
+color: blue;
+}
+
+.facebook{
+    padding-right: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: blue;
+    }
+
+.linkedin {
+    font-weight: bolder;
+    text-decoration: none;
+    color: blue;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 100vh;
+    /* padding-right: 0px; */
+   
+}

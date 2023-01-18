@@ -16,17 +16,17 @@ function Home() {
             
               <div className="email">
               <label  htmlFor="email-address">Email Address</label><br></br>
-              <input type="email" name="email-address"  id="email-address"/>
+              <input type="email" className="email-address"  id="email-address"/>
               </div>
                 
               <div className="password">
                 <label htmlFor="password">Password</label><br></br>
-                <input type="password" name="password"  id="password"/>
+                <input type="password" className="password"  id="password"/>
               </div>
               <div>
                 
               </div>
-              <div className=''>
+              <div className='box'>
                 <input type="checkbox" className="rememberme" value="1" />&nbsp;Remember Me
                 <a href="#0" className="forget">Forgot your password?</a><br></br>
               </div>
@@ -46,7 +46,7 @@ function Home() {
           </article>
         </div>
         <div className='right-column' >
-          <img src='https://img.freepik.com/premium-vector/website-development-web-page-programming-coding_277904-5103.jpg?w=740'></img>
+          <img className='home-img' src='https://img.freepik.com/premium-vector/website-development-web-page-programming-coding_277904-5103.jpg?w=740'></img>
 
         </div>  
       </div>

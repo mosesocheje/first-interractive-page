@@ -2,11 +2,11 @@
     display: flex;
     justify-content: center;
     background-color: rgb(3, 138, 192);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
-    height: max-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* height: max-content; */
 }
 
 @media only screen and (max-width: 480px) {
@@ -18,7 +18,7 @@
     .right-column {
         width: 50%;
         height: 50vh;
-        flex-direction: row;
+        flex-direction: column;
         margin-right: -50px;
     }
     .left-column {
@@ -29,6 +29,9 @@
         width: 70%;
         margin-top: 50px;
     }
+    .welcome {
+        margin-top: -1px;
+    }
     .heading {
         font-size: medium;
     }
@@ -38,16 +41,13 @@
     .social-media {
         display: inline;
         flex-direction: row;
+        line-height: 1;
     }
     .buttons-container {
         font-size: small;
+        margin-top: -20px;
     }
-    .signup-btn{
-        padding: px;
-    }
-    .email {
-        
-    }
+   
   }
 
 .content {
@@ -58,9 +58,10 @@
     background-color: white;
     /* padding-top: 10px;
     padding-bottom: 10px; */
+    justify-content: center;
     margin: auto;
     width: 80%;
-    height: 80%;
+    height: max-content;
     border-radius: 20px;
     
 
@@ -69,8 +70,8 @@
 @media only screen and (max-width: 480px) {
     .content {
       flex-direction: row;
-      width: 100%;
-      height: max-content;
+      width: 80%;
+      height: 100%;
       
     }
     .box {
@@ -86,7 +87,7 @@
     text-align: left;
     padding-left: 100px;
     width: 35%;
-    height: 100vh;
+    height: 80vh;
 }
 .heading {
     color: blue;
@@ -201,7 +202,7 @@ color: blue;
     display: flex;
     flex-direction: column;
     width: 75%;
-    height: 100vh;
+    height: 80vh;
     /* padding-right: 0px; */
    
 }

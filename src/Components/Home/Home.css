@@ -6,15 +6,29 @@
     padding-bottom: 50px;
     padding-left: 20px;
     padding-right: 20px;
-    /* height: max-content; */
+    
+    /* height: ; */
 }
 
-@media only screen and (max-width: 480px) {
-    .container {
-      flex-direction: row;
-      width: 100%;
-      height: 100%;
-    }
+.content {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center;
+    justify-content: center; */
+    background-color: white;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    margin: auto;
+    /* margin-left:-100px;
+    margin-right: -100px; */
+    justify-content: center;
+    width: 80%;
+    height: max-content;
+    border-radius: 20px;
+
+}
+
+    
     .right-column {
         width: 50%;
         height: 50vh;
@@ -28,6 +42,7 @@
     .home-img {
         width: 70%;
         margin-top: 50px;
+        
     }
     .welcome {
         margin-top: -1px;
@@ -38,8 +53,9 @@
     .heading2 {
         font-size:medium;
     }
+   
     .social-media {
-        display: inline;
+        display: inline-flex;
         flex-direction: row;
         line-height: 1;
     }
@@ -47,39 +63,34 @@
         font-size: small;
         margin-top: -20px;
     }
+    .signup-btn{
+        padding: px;
+    }
    
-  }
 
-.content {
-    display: flex;
-    flex-direction: row;
-    /* align-items: center;
-    justify-content: center; */
-    background-color: white;
-    /* padding-top: 10px;
-    padding-bottom: 10px; */
-    justify-content: center;
-    margin: auto;
-    width: 80%;
-    height: max-content;
-    border-radius: 20px;
-    
 
-}
+
 
 @media only screen and (max-width: 480px) {
+    .container {
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+      }
     .content {
       flex-direction: row;
-      width: 80%;
-      height: 100%;
+      width: 90vw;
+      height: 110vh;
+      margin-left: 5px;
       
     }
+
     .box {
         display: inline-flex;
         font-size: small;
         margin-left: -20px;
     }
-  }
+}
 
 .left-column {
     display: flex;
@@ -88,6 +99,7 @@
     padding-left: 100px;
     width: 35%;
     height: 80vh;
+    margin-left: -70px;
 }
 .heading {
     color: blue;
@@ -104,7 +116,7 @@
     
 } */
 .email {
-    font-size: 1.2em;
+    font-size: 0.8em;
     padding-bottom: 10px;
    
 
@@ -113,30 +125,30 @@
 
 
 .password{
-    font-size: 1.2em;
+    font-size: 0.8em;
     padding-bottom: 10px;
 }
 input[type=email] {
     width: 90%;
-    padding: 12px 20px;
+    padding: 8px 8px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
 }
 input[type=password] {
     width: 90%;
-    padding: 12px 20px;
+    padding: 8px 8px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
 }
 
 .forget {
-    padding-left: 120px;
+    padding-left: 100px;
     text-decoration: none;
     color: black;
 }
@@ -174,7 +186,7 @@ input[type=password] {
 }
 
 .social-media {
-    padding-top: 40px;
+    padding-top: 20px;
     
 }
 .google{
